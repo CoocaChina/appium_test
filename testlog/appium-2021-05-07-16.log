@@ -1,0 +1,61 @@
+[2021-05-07 16:02:49.331265] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:02:49.340954] INFO: appium: 全部kwargs参数信息 , {'path': '/testcase/yamllogin.yaml'}
+[2021-05-07 16:02:49.341473] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:02:49.341818] INFO: appium: 全部kwargs参数信息 , {'path': '/testcase/yamllogin.yaml'}
+[2021-05-07 16:02:49.342247] INFO: appium: yaml文档解析失败！原因：[Errno 2] No such file or directory: '/testcase/yamllogin.yaml'
+[2021-05-07 16:15:46.344187] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:15:46.345737] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/testcase/yamllogin.yaml'}
+[2021-05-07 16:15:46.345893] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:15:46.346029] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/testcase/yamllogin.yaml'}
+[2021-05-07 16:15:46.346175] INFO: appium: yaml文档解析失败！原因：[Errno 2] No such file or directory: '/Users/shijifeng/PycharmProjects/appium_test/testcase/testcase/yamllogin.yaml'
+[2021-05-07 16:16:54.417191] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:16:54.417566] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/testcase/yaml/login.yaml'}
+[2021-05-07 16:16:54.417712] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:16:54.417827] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/testcase/yaml/login.yaml'}
+[2021-05-07 16:16:54.417964] INFO: appium: yaml文档解析失败！原因：[Errno 2] No such file or directory: '/Users/shijifeng/PycharmProjects/appium_test/testcase/testcase/yaml/login.yaml'
+[2021-05-07 16:18:32.046353] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:18:32.047390] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yamllogin.yaml'}
+[2021-05-07 16:18:32.047549] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:18:32.047668] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yamllogin.yaml'}
+[2021-05-07 16:18:32.047816] INFO: appium: yaml文档解析失败！原因：[Errno 2] No such file or directory: '/Users/shijifeng/PycharmProjects/appium_test/testcase/yamllogin.yaml'
+[2021-05-07 16:19:31.469726] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:19:31.470484] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:19:31.470631] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:19:31.470747] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:23:59.502264] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:23:59.503362] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:23:59.503560] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:23:59.503747] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:25:53.163753] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:25:53.173534] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:25:53.175368] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:25:53.175754] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:25:53.176194] INFO: appium: yaml文档解析失败！原因：module 'yaml' has no attribute 'load'
+[2021-05-07 16:29:18.912252] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:29:18.913578] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:29:18.914138] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:29:18.914362] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:32:05.451686] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:32:05.452485] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:32:05.452630] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:32:05.452742] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:32:21.901123] INFO: appium: 请检查您的测试步骤
+[2021-05-07 16:32:30.017605] INFO: appium: 请检查您的测试步骤
+[2021-05-07 16:34:59.576128] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:34:59.577108] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:34:59.577275] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:34:59.577403] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:35:16.177418] INFO: appium: 请检查您的测试步骤
+[2021-05-07 16:35:24.304217] INFO: appium: 请检查您的测试步骤
+[2021-05-07 16:37:07.884525] INFO: appium: 当前模块 解析测试步骤
+[2021-05-07 16:37:07.885331] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:37:07.885467] INFO: appium: 当前模块 解析yaml文件
+[2021-05-07 16:37:07.885580] INFO: appium: 全部kwargs参数信息 , {'path': '/Users/shijifeng/PycharmProjects/appium_test/testcase/yaml/login.yaml'}
+[2021-05-07 16:37:07.890566] INFO: appium: [{'element_info': "//*[@text='手机号登录']", 'find_type': 'xpath', 'index': 0, 'operate_type': 'click'}, {'element_info': "//*[@text='请输入手机号']", 'find_type': 'xpath', 'index': 0, 'operate_type': 'send_keys', 'text': 15757185534}, {'element_info': '//android.widget.EditText[2]', 'find_type': 'xpath', 'index': 0, 'operate_type': 'send_keys', 'text': 23456}, {'element_info': "new UiSelector().text('登录')", 'find_type': 'and', 'index': 0, 'operate_type': 'click'}, {'element_info': '//android.widget.EditText[2]', 'find_type': 'xpath', 'index': 0, 'operate_type': 'send_keys'}]
+[2021-05-07 16:37:07.891160] INFO: appium: 4
+[2021-05-07 16:37:07.891317] INFO: appium: 0
+[2021-05-07 16:37:24.211565] INFO: appium: 0
+[2021-05-07 16:37:24.346359] INFO: appium: 请检查您的测试步骤
+[2021-05-07 16:37:32.350347] INFO: appium: 0
+[2021-05-07 16:37:32.491212] INFO: appium: 请检查您的测试步骤
+[2021-05-07 16:37:40.495307] INFO: appium: 0
