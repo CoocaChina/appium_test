@@ -7,6 +7,7 @@ from comm import sxc_appium_server
 from testcase import sxc_xct_login
 from BeautifulReport import BeautifulReport as bf  # 导入BeautifulReport模块，这个模块也是生成报告的模块，但是比HTMLTestRunner模板好看
 from comm import sxc_test_log
+from comm.log import LOG, logger
 
 
 class appTest(unittest.TestCase):
@@ -15,9 +16,11 @@ class appTest(unittest.TestCase):
         # self.log.info('开始测试')
         self.wd = sxc_appium_server.startServer()
         pass
-    @unittest.skip
-    def test_c_createbill(self):
 
+    def test_c_createbill(self):
+        shouye = self.wd.find_element_by_xpath("//*[@text='宋小菜工作台']").text
+        if shouye != '宋小菜工作台':
+            sxc_xct_login.xct_login(self.wd,'15757185534','23456')
         self.wd.find_element_by_xpath("//*[@text='原料采购']").click()
         self.wd.find_element_by_xpath("//*[@text='创建需求单']").click()
         self.wd.find_element_by_xpath("//*[@text='供应商']").click()
@@ -45,6 +48,9 @@ class appTest(unittest.TestCase):
             print(1)
         self.wd.keyevent(10)
         self.wd.find_element_by_xpath("//*[@text='确定']").click()
+        duanyan = self.wd.find_element_by_xpath("//*[@text='需求单']").text
+        LOG.info(duanyan)
+        self.assertEqual(duanyan,'需求单',"创建成功")
     def tearDown(self):
         self.wd.quit()
         sleep(15)

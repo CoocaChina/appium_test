@@ -1,6 +1,7 @@
 import os
 from time import sleep
 from appium import webdriver # appium库
+from config.globalparameter import platformName,platformVersion,deviceName,app,appPackage,Activity,noReset,unicodeKeyboard,resetKeyboard
 
 
 def startServer():
@@ -10,19 +11,19 @@ def startServer():
     sleep(10)
     # cmd = 'appium -a 127.0.0.1 -p 4723 --session-override &'
     desired_caps = {}
-    desired_caps['platformName'] = 'Android'
+    desired_caps['platformName'] = platformName
     # desired_caps['platformVersion'] = '10.0'
     # desired_caps['deviceName'] = 'CLBGL18A23000056'
-    desired_caps['platformVersion'] = '6.0'
-    desired_caps['deviceName'] = '85ZTTCWS99999999'
-    desired_caps['app'] = '/Users/shijifeng/PycharmProjects/appium_test/testApp/bossbb-android-release-1619593549681.apk'
-    desired_caps['appPackage'] = 'com.sxc.bossbb'
-    desired_caps['Activity'] = 'com.bossbb.MainActivity'
+    desired_caps['platformVersion'] = platformVersion
+    desired_caps['deviceName'] = deviceName
+    desired_caps['app'] = app
+    desired_caps['appPackage'] = appPackage
+    desired_caps['Activity'] = Activity
     # desired_caps['udid'] = serial
     # desired_caps['systemPort'] = systemPort
-    desired_caps['noReset'] = True
-    desired_caps["unicodeKeyboard"] = True
-    desired_caps["resetKeyboard"] = True
+    desired_caps['noReset'] = noReset
+    desired_caps["unicodeKeyboard"] = unicodeKeyboard
+    desired_caps["resetKeyboard"] = resetKeyboard
 
     wd = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
     wd.implicitly_wait(60)
