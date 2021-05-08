@@ -9,6 +9,8 @@ from BeautifulReport import BeautifulReport as bf  # 导入BeautifulReport模块
 from comm import sxc_test_log
 from testMode.exectfuntion import Makeappcase
 from comm.log import LOG, logger
+from config.globalparameter import yaml_path
+from comm import save_img
 
 class appTest(unittest.TestCase):
     def setUp(self):
@@ -34,15 +36,14 @@ class appTest(unittest.TestCase):
     #         sleep(5)
     #     except BaseException:
     #         print('登录出错')
-
-    def test_login(self, **kwargs):
-        path = os.getcwd()
-        path_ = os.path.join(os.path.join(path, 'yaml/'))
-        self.path = path_ + 'login.yaml'
+    @bf.add_test_img('test_case_1')
+    def test_login(self):
+        self.path = yaml_path + 'login.yaml'
         print(self.path)
         self.deriver = self.wd
         self.open = Makeappcase(self.deriver, path=self.path)
-        f = self.open.exce_case(**kwargs)
+        f = self.open.exce_case()
+        save_img(self.wd,'test_case_1')
         if f['code'] == 1:
             LOG.info('无法获取断言')
             return

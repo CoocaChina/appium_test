@@ -16,12 +16,7 @@
   operate_type: send_keys
   text: 23456
 -
-  element_info: "new UiSelector().text('登录')"
+  element_info: text('登录')
   find_type: and
   index: 0
   operate_type: click
--
-  element_info: "//android.widget.EditText[2]"
-  find_type: xpath
-  index: 0
-  operate_type: send_keys

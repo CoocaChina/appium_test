@@ -89,7 +89,7 @@ from config.globalparameter import test_case_path,report_path,report_name
 #     def test_z_logout(self):
 #         sxc_xct_login.xct_logout(self.wd)
 #
-#     def tearDown(self):
+#     def tearDown(self):,
 #         self.wd.quit()
 #         sleep(15)
 #         appiumidcmd = "ps -ef|grep node|grep -v grep|cut -c 8-15|xargs kill -9"
@@ -101,4 +101,4 @@ from config.globalparameter import test_case_path,report_path,report_name
 suite = unittest.TestLoader().discover(start_dir=test_case_path,pattern='test*.py')
 # 执行测试
 runner = bf(suite)  # 实例化BeautifulReport模块
-runner.report(filename=report_name, description='这个描述参数是必填的',log_path=report_path)
+runner.report(filename=report_name, description='这个描述参数是必填的',report_dir='')

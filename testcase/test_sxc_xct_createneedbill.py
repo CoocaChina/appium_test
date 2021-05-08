@@ -8,15 +8,18 @@ from testcase import sxc_xct_login
 from BeautifulReport import BeautifulReport as bf  # 导入BeautifulReport模块，这个模块也是生成报告的模块，但是比HTMLTestRunner模板好看
 from comm import sxc_test_log
 from comm.log import LOG, logger
-
+from config.globalparameter import img_path
+from comm import save_img
 
 class appTest(unittest.TestCase):
+
     def setUp(self):
         self.log = sxc_test_log.logger()
         # self.log.info('开始测试')
         self.wd = sxc_appium_server.startServer()
         pass
 
+    @bf.add_test_img('test_case_1')
     def test_c_createbill(self):
         shouye = self.wd.find_element_by_xpath("//*[@text='宋小菜工作台']").text
         if shouye != '宋小菜工作台':
@@ -51,6 +54,7 @@ class appTest(unittest.TestCase):
         duanyan = self.wd.find_element_by_xpath("//*[@text='需求单']").text
         LOG.info(duanyan)
         self.assertEqual(duanyan,'需求单',"创建成功")
+
     def tearDown(self):
         self.wd.quit()
         sleep(15)
