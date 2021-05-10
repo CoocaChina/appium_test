@@ -9,7 +9,7 @@ from BeautifulReport import BeautifulReport as bf  # 导入BeautifulReport模块
 from comm import sxc_test_log
 from comm.log import LOG, logger
 from config.globalparameter import img_path
-from comm import save_img
+from comm.save_img import save_img
 
 class appTest(unittest.TestCase):
 
@@ -20,6 +20,7 @@ class appTest(unittest.TestCase):
         pass
 
     @bf.add_test_img('test_case_1')
+    @unittest.skip
     def test_c_createbill(self):
         shouye = self.wd.find_element_by_xpath("//*[@text='宋小菜工作台']").text
         if shouye != '宋小菜工作台':

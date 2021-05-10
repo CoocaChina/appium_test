@@ -96,7 +96,12 @@ from config.globalparameter import test_case_path,report_path,report_name
 #         os.system(appiumidcmd)
 #         # print(type(appiumid))
 #         # os.system('kill -9' + str(appiumid))
-    # 构造测试套件
+
+
+
+
+
+# 构造测试套件
 
 suite = unittest.TestLoader().discover(start_dir=test_case_path,pattern='test*.py')
 # 执行测试

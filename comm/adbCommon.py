@@ -77,5 +77,3 @@ class AndroidDebugBridge(object):
         return result[4]
 
 
-# reuslt = AndroidDebugBridge().attached_devices()
-# print(reuslt)

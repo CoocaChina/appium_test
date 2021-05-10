@@ -6,7 +6,9 @@ from config.globalparameter import platformName,platformVersion,deviceName,app,a
 
 def startServer():
     # cmd = 'appium --address 127.0.0.1' + ' --port' + str(port) + ' --bootstrap-port ' + str(port - 2000) + ' -U ' +serial + ' -session-override --no-rest'
+    cmdappium = "lsof -n -i:4723 | grep LISTEN | awk '{print $2}' | xargs kill"
     cmd = 'appium -a 127.0.0.1 -p 4723 --session-override &'
+    os.system(cmdappium)
     os.system(cmd)
     sleep(10)
     # cmd = 'appium -a 127.0.0.1 -p 4723 --session-override &'
