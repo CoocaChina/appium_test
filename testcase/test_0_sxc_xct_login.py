@@ -19,12 +19,14 @@ class appTest(unittest.TestCase):
         self.wd = sxc_appium_server.startServer()
         pass
 
+
     @bf.add_test_img('test_errors_save_imgs')
     def test_a_login(self):
-        time.sleep(10)
-        shouye = self.wd.find_element_by_xpath("//*[@text='宋小菜工作台']").text
-        if shouye == '宋小菜工作台':
-            sxc_xct_login.xct_logout(self.wd)
+        """测试登录"""
+        # time.sleep(10)
+        # shouye = self.wd.find_element_by_xpath("//*[@text='宋小菜工作台']").text
+        # if shouye == '宋小菜工作台':
+        #     sxc_xct_login.xct_logout(self.wd)
         # sxc_xct_login.xct_login(self.wd,"15757185534")
         try:
             self.wd.find_element_by_xpath("//*[@text='手机号登录']").click()

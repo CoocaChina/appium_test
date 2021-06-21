@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06b43460-d0fd-4f92-ab38-17066a83cb8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/comm/save_img.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testcase/case_img/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testApp/bossbb-android-release-1620963514573.apk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testcase/test_sxc_xct_dkb_createneedbill.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/globalparameter.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/globalparameter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testMode/exectfuntion.py" beforeDir="false" afterPath="$PROJECT_DIR$/testMode/exectfuntion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testcase/sxc_xct_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/sxc_xct_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/test_0_sxc_xct_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_0_sxc_xct_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testcase/test_sxc_xct_createneedbill.py" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/test_sxc_xct_createneedbill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testcase/yaml/login.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/testcase/yaml/login.yaml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,16 +17,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/appium_test$adbCommon.coverage" NAME="adbCommon Coverage Results" MODIFIED="1620639260746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comm" />
+    <SUITE FILE_PATH="coverage/appium_test$sxc_test_log.coverage" NAME="sxc_test_log Coverage Results" MODIFIED="1620269399623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comm" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_for_sxc_xct_shengchanguanli_jgc.coverage" NAME="pytest for sxc_xct_shengchanguanli.jgc Coverage Results" MODIFIED="1620357503696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_sxc_xct_createneedbill_appTest_test_c_createbill.coverage" NAME="pytest for test_sxc_xct_createneedbill.appTest.test_c_createbill Coverage Results" MODIFIED="1620639264814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_b_chuangjiancaigou.coverage" NAME="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_b_chuangjiancaigou Coverage Results" MODIFIED="1623118487427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_in_run_py.coverage" NAME="pytest in run.py Coverage Results" MODIFIED="1620292832819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_0_sxc_xct_login_appTest_test_login.coverage" NAME="pytest for test_0_sxc_xct_login.appTest.test_login Coverage Results" MODIFIED="1620453182348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_sxc_xct_login_appTest_test_login.coverage" NAME="pytest for test_sxc_xct_login.appTest.test_login Coverage Results" MODIFIED="1620376601236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_sxc_xct_login_appTest.coverage" NAME="pytest for test_sxc_xct_login.appTest Coverage Results" MODIFIED="1620376128963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_0_sxc_xct_login_appTest_test_a_login.coverage" NAME="pytest for test_0_sxc_xct_login.appTest.test_a_login Coverage Results" MODIFIED="1621391310644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/appium_test$apkBase.coverage" NAME="apkBase Coverage Results" MODIFIED="1620371594926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comm" />
-    <SUITE FILE_PATH="coverage/appium_test$sxc_test_log.coverage" NAME="sxc_test_log Coverage Results" MODIFIED="1620269399623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/comm" />
-    <SUITE FILE_PATH="coverage/appium_test$pytest_for_sxc_xct_shengchanguanli_jgc.coverage" NAME="pytest for sxc_xct_shengchanguanli.jgc Coverage Results" MODIFIED="1620357503696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_sxc_xct_createneedbill_appTest_test_c_createbill.coverage" NAME="pytest for test_sxc_xct_createneedbill.appTest.test_c_createbill Coverage Results" MODIFIED="1620379528453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
-    <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_0_sxc_xct_login_appTest.coverage" NAME="pytest for test_0_sxc_xct_login.appTest Coverage Results" MODIFIED="1620445984813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill.coverage" NAME="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill Coverage Results" MODIFIED="1624244002738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_in_test_sxc_xct_dkb_createneedbill_py.coverage" NAME="pytest in test_sxc_xct_dkb_createneedbill.py Coverage Results" MODIFIED="1624241631193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_c_createbill.coverage" NAME="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_c_createbill Coverage Results" MODIFIED="1621394062555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
+    <SUITE FILE_PATH="coverage/appium_test$pytest_for_test_0_sxc_xct_login_appTest.coverage" NAME="pytest for test_0_sxc_xct_login.appTest Coverage Results" MODIFIED="1621391237537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testcase" />
     <SUITE FILE_PATH="coverage/appium_test$pytest_for_run_appTest.coverage" NAME="pytest for run.appTest Coverage Results" MODIFIED="1620285191132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/appium_test$pytest_in_run_py.coverage" NAME="pytest in run.py Coverage Results" MODIFIED="1620292832819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="appium_test" />
@@ -36,10 +40,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testMode/exectfuntion.py">
+        <entry file="file://$PROJECT_DIR$/testcase/test_0_sxc_xct_login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="480">
+              <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/testcase/test_sxc_xct_dkb_createneedbill.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="123" column="17" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testcase/sxc_xct_login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -54,22 +82,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testcase/yaml/login.yaml">
+        <entry file="file://$PROJECT_DIR$/config/globalparameter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="405">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testcase/test_0_sxc_xct_login.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comm/sxc_appium_server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="51" selection-end-column="26" />
+            <state relative-caret-position="450">
+              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comm/sxc_test_log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comm/log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
+              <folding>
+                <element signature="e#11#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/comm/adbCommon.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="900">
+              <caret line="60" column="16" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -83,6 +144,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+      <find>png</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -94,26 +161,29 @@
         <option value="$PROJECT_DIR$/testcase/sxc_xct_shengchanguanli.py" />
         <option value="$PROJECT_DIR$/comm/apkBase.py" />
         <option value="$PROJECT_DIR$/read.md" />
-        <option value="$PROJECT_DIR$/comm/adbCommon.py" />
         <option value="$PROJECT_DIR$/comm/operyaml.py" />
         <option value="$PROJECT_DIR$/comm/log.py" />
-        <option value="$PROJECT_DIR$/testcase/sxc_xct_login.py" />
         <option value="$PROJECT_DIR$/testcase/test_sxc_xct_login.py" />
-        <option value="$PROJECT_DIR$/comm/sxc_appium_server.py" />
         <option value="$PROJECT_DIR$/comm/save_img.py" />
-        <option value="$PROJECT_DIR$/testcase/test_sxc_xct_createneedbill.py" />
-        <option value="$PROJECT_DIR$/config/globalparameter.py" />
-        <option value="$PROJECT_DIR$/run.py" />
-        <option value="$PROJECT_DIR$/testcase/test_0_sxc_xct_login.py" />
         <option value="$PROJECT_DIR$/testcase/yaml/login.yaml" />
         <option value="$PROJECT_DIR$/testMode/exectfuntion.py" />
+        <option value="$PROJECT_DIR$/comm/sxc_appium_server.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/comm/adbCommon.py" />
+        <option value="$PROJECT_DIR$/report/2021-05-10_11_52_06_.html" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/testcase/test_0_sxc_xct_login.py" />
+        <option value="$PROJECT_DIR$/testcase/test_sxc_xct_createneedbill.py" />
+        <option value="$PROJECT_DIR$/config/globalparameter.py" />
+        <option value="$PROJECT_DIR$/testcase/sxc_xct_login.py" />
+        <option value="$PROJECT_DIR$/testcase/test_sxc_xct_dkb_createneedbill.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="940" />
+    <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -142,18 +212,12 @@
             <path>
               <item name="appium_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="appium_test" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="testApp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="appium_test" type="462c0819:PsiDirectoryNode" />
               <item name="testcase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium_test" type="462c0819:PsiDirectoryNode" />
-              <item name="testcase" type="462c0819:PsiDirectoryNode" />
-              <item name="yaml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium_test" type="b2602c69:ProjectViewProjectNode" />
@@ -182,9 +246,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testcase" />
+      <recent name="$PROJECT_DIR$/testApp" />
       <recent name="$PROJECT_DIR$/comm" />
       <recent name="$PROJECT_DIR$/testMode" />
-      <recent name="$PROJECT_DIR$/testcase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -199,8 +264,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_0_sxc_xct_login.appTest.test_login">
-    <configuration name="pytest for test_0_sxc_xct_login.appTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill">
+    <configuration name="pytest for test_0_sxc_xct_login.appTest.test_a_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appium_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,11 +277,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_0_sxc_xct_login.appTest&quot;" />
+      <option name="_new_target" value="&quot;test_0_sxc_xct_login.appTest.test_a_login&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_0_sxc_xct_login.appTest.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appium_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,11 +293,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_0_sxc_xct_login.appTest.test_login&quot;" />
+      <option name="_new_target" value="&quot;test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_sxc_xct_createneedbill.appTest.test_c_createbill" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_b_chuangjiancaigou" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appium_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -244,11 +309,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_sxc_xct_createneedbill.appTest.test_c_createbill&quot;" />
+      <option name="_new_target" value="&quot;test_sxc_xct_dkb_createneedbill.appTest.test_b_chuangjiancaigou&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for testcase.test_0_sxc_xct_login.appTest" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_c_createbill" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appium_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -260,11 +325,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcase.test_0_sxc_xct_login.appTest&quot;" />
+      <option name="_new_target" value="&quot;test_sxc_xct_dkb_createneedbill.appTest.test_c_createbill&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for testcase.test_0_sxc_xct_login.appTest.test_login" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_sxc_xct_dkb_createneedbill.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="appium_test" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,17 +341,17 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;testcase.test_0_sxc_xct_login.appTest.test_login&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/testcase/test_sxc_xct_dkb_createneedbill.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_0_sxc_xct_login.appTest.test_login" />
-        <item itemvalue="Python tests.pytest for test_0_sxc_xct_login.appTest" />
-        <item itemvalue="Python tests.pytest for test_sxc_xct_createneedbill.appTest.test_c_createbill" />
-        <item itemvalue="Python tests.pytest for testcase.test_0_sxc_xct_login.appTest.test_login" />
-        <item itemvalue="Python tests.pytest for testcase.test_0_sxc_xct_login.appTest" />
+        <item itemvalue="Python tests.pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" />
+        <item itemvalue="Python tests.pytest in test_sxc_xct_dkb_createneedbill.py" />
+        <item itemvalue="Python tests.pytest for test_sxc_xct_dkb_createneedbill.appTest.test_b_chuangjiancaigou" />
+        <item itemvalue="Python tests.pytest for test_sxc_xct_dkb_createneedbill.appTest.test_c_createbill" />
+        <item itemvalue="Python tests.pytest for test_0_sxc_xct_login.appTest.test_a_login" />
       </list>
     </recent_temporary>
   </component>
@@ -301,7 +366,15 @@
       <option name="presentableId" value="Default" />
       <updated>1619750288310</updated>
       <workItem from="1619750289665" duration="11458000" />
-      <workItem from="1620264596129" duration="40043000" />
+      <workItem from="1620264596129" duration="41588000" />
+      <workItem from="1620612335266" duration="8507000" />
+      <workItem from="1621322760665" duration="10185000" />
+      <workItem from="1621603014275" duration="495000" />
+      <workItem from="1622086049068" duration="1627000" />
+      <workItem from="1622538558833" duration="1641000" />
+      <workItem from="1623054651894" duration="7254000" />
+      <workItem from="1623382889484" duration="586000" />
+      <workItem from="1624238454926" duration="4013000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1620377939057</created>
@@ -317,54 +390,67 @@
       <option name="project" value="LOCAL" />
       <updated>1620380472997</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1">
+      <created>1620464303189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620464303189</updated>
+    </task>
+    <task id="LOCAL-00004" summary="测试框架修改">
+      <created>1620630562064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1620630562065</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_sxc_xct_createneedbill_appTest_test_c_createbill - 2021.05.07 at 17h 26m 54s.xml">
-      <configuration name="pytest for test_sxc_xct_createneedbill.appTest.test_c_createbill" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_b_chuangjiancaigou - 2021.06.08 at 10h 16m 00s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_b_chuangjiancaigou" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest_test_login - 2021.05.08 at 11h 17m 39s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill - 2021.06.21 at 10h 12m 45s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest_test_login - 2021.05.08 at 11h 28m 25s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest.test_login" configurationId="tests" />
+    <history-entry file="pytest_in_test_sxc_xct_dkb_createneedbill_py - 2021.06.21 at 10h 14m 23s.xml">
+      <configuration name="pytest in test_sxc_xct_dkb_createneedbill.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest_test_login - 2021.05.08 at 11h 34m 38s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill - 2021.06.21 at 10h 19m 15s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest_test_login - 2021.05.08 at 11h 38m 07s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill - 2021.06.21 at 10h 26m 51s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest - 2021.05.08 at 11h 41m 17s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill - 2021.06.21 at 10h 29m 53s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest - 2021.05.08 at 11h 45m 44s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill - 2021.06.21 at 10h 33m 48s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest - 2021.05.08 at 11h 47m 28s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill - 2021.06.21 at 10h 38m 58s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest - 2021.05.08 at 11h 54m 24s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill - 2021.06.21 at 10h 53m 12s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_0_sxc_xct_login_appTest_test_login - 2021.05.08 at 13h 54m 19s.xml">
-      <configuration name="pytest for test_0_sxc_xct_login.appTest.test_login" configurationId="tests" />
+    <history-entry file="pytest_for_test_sxc_xct_dkb_createneedbill_appTest_test_a_createbill - 2021.06.21 at 10h 56m 05s.xml">
+      <configuration name="pytest for test_sxc_xct_dkb_createneedbill.appTest.test_a_createbill" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51501000" />
+    <option name="totallyTimeSpent" value="87354000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="940" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1680" height="948" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.25274727" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49912128" visible="true" weight="0.2771673" />
       <window_info id="Structure" order="1" sideWeight="0.50087875" side_tool="true" weight="0.25274727" />
       <window_info id="Favorites" order="2" sideWeight="0.50087875" side_tool="true" weight="0.25274727" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.32900944" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.32827103" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39976415" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +459,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50061053" side_tool="true" weight="0.32900944" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32900944" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32827103" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -410,64 +496,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="测试框架修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试框架修改" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/result/2021_05_06.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6103" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/sxc_test_log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20210506-155353.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20210506-152541.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="74" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/20210506-172601.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/sxc_xct_shengchanguanli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/20210506-152541.html" />
+    <entry file="file://$PROJECT_DIR$/20210506-172601.html" />
+    <entry file="file://$PROJECT_DIR$/testcase/sxc_xct_shengchanguanli.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/loader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -475,42 +510,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/20210507-143031.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="96" lean-forward="true" selection-start-line="5" selection-start-column="96" selection-end-line="5" selection-end-column="96" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="8" column="82" lean-forward="true" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testMode/touch_tap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/20210507-143031.html" />
+    <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -528,46 +529,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/sxc_xct_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="14" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/operyaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="e#71#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-          <folding>
-            <element signature="e#11#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlog/appium-2021-05-07-17.log">
+    <entry file="file://$PROJECT_DIR$/testlog/appium-2021-05-07-17.log" />
+    <entry file="file://$PROJECT_DIR$/report/2021-05-07_17_47_19_.html" />
+    <entry file="file://$PROJECT_DIR$/report/2021-05-07_18_07_25_.html" />
+    <entry file="file://$PROJECT_DIR$/report/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/2021-05-07_17_47_19_.html">
+    <entry file="file://$PROJECT_DIR$/testcase/case_img/test_img_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2021-05-08_09_44_51_.html" />
+    <entry file="file://$PROJECT_DIR$/report/2021-05-08_10_32_07_.html" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/os.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="180">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021-05-08_10_58_01_.html" />
+    <entry file="file://$PROJECT_DIR$/testlog/appium-2021-05-08-10.log" />
+    <entry file="file://$PROJECT_DIR$/testcase/case_img/test_case_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testMode/touch_tap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/logbook/more.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2021-05-10_11_43_55_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="74" lean-forward="true" selection-start-line="3" selection-start-column="74" selection-end-line="3" selection-end-column="74" />
           <folding>
             <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
@@ -578,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comm/apkBase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="780">
           <caret line="52" column="19" selection-start-line="52" selection-start-column="15" selection-end-line="52" selection-end-column="19" />
           <folding>
             <element signature="e#22#33#0" expanded="true" />
@@ -586,139 +591,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comm/sxc_appium_server.py">
+    <entry file="file://$PROJECT_DIR$/comm/operyaml.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="47" />
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="11" />
           <folding>
-            <element signature="e#0#9#0" expanded="true" />
+            <element signature="e#71#82#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/comm/adbCommon.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2021-05-07_18_07_25_.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/case_img/test_img_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2021-05-08_09_44_51_.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="2741" column="17" lean-forward="true" selection-start-line="2741" selection-start-column="17" selection-end-line="2741" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/report/2021-05-08_10_32_07_.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2021-05-08_10_58_01_.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1074">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testlog/appium-2021-05-08-10.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" selection-start-line="27" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/globalparameter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BeautifulReport/BeautifulReport.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="354" column="56" selection-start-line="354" selection-start-column="56" selection-end-line="354" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/case_img/test_case_1.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/comm/save_img.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="135">
+          <caret line="9" column="73" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="73" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/case_img/test_errors_save_imgs.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2021-05-10_11_52_06_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="7254" column="36" lean-forward="true" selection-start-line="7254" selection-start-column="36" selection-end-line="7254" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#td#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#td#5;n#tr#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/yaml/login.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2021-05-10_16_10_56_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testMode/exectfuntion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="4" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2021-05-10_16_04_28_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testcase/test_sxc_xct_createneedbill.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="43" />
+        <state relative-caret-position="840">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/yaml/login.yaml">
+    <entry file="file://$PROJECT_DIR$/report/2021-05-10_16_13_22_.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/2021-05-10_17_14_45_.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/BeautifulReport/BeautifulReport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="359" column="26" selection-start-line="359" selection-start-column="15" selection-end-line="359" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="108" column="59" selection-start-line="108" selection-start-column="49" selection-end-line="108" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testlog/appium-2021-05-10-17.log" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testlog/appium-2021-05-19-11.log" />
+    <entry file="file://$PROJECT_DIR$/testcase/test_0_sxc_xct_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/sxc_xct_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -729,17 +738,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testMode/exectfuntion.py">
+    <entry file="file://$PROJECT_DIR$/comm/sxc_test_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="180">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testcase/test_0_sxc_xct_login.py">
+    <entry file="file://$PROJECT_DIR$/comm/log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="38" column="4" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="51" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="19" />
+          <folding>
+            <element signature="e#11#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/adbCommon.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/globalparameter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comm/sxc_appium_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testcase/test_sxc_xct_dkb_createneedbill.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="123" column="17" lean-forward="true" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

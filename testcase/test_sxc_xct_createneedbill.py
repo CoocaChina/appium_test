@@ -20,8 +20,8 @@ class appTest(unittest.TestCase):
         pass
 
     @bf.add_test_img('test_case_1')
-    @unittest.skip
     def test_c_createbill(self):
+        """创建需求单用例"""
         shouye = self.wd.find_element_by_xpath("//*[@text='宋小菜工作台']").text
         if shouye != '宋小菜工作台':
             sxc_xct_login.xct_login(self.wd,'15757185534','23456')

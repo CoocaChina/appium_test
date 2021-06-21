@@ -19,7 +19,7 @@ def xct_login(wd,mobile,pwd):
     # self.wd.find_element_by_xpath('//android.widget.ScrollView/android.view.ViewGroup/android.view.ViewGroup').click()
     # self.wd.find_element_by_android_uiautomator('new UiSelector().className("android.widget.TextView")')[4].click()
     # self.wd.find_element_by_android_uiautomator('new UiSelector().className("android.widget.TextView").text("登录")').click()
-    # self.wd.find_element_by_xpath('//*[contains(@content-desc, "登录")]').click()
+    wd.find_element_by_xpath('//android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]').click()
     wd.find_element_by_android_uiautomator('new UiSelector().text("登录")').click()
     # print(2)
     # self.wd.keyevent(66)
